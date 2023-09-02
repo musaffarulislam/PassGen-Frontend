@@ -1,5 +1,4 @@
-import { createSlice, createAsyncThunk, Dispatch, AnyAction } from "@reduxjs/toolkit";
-import axios from "../../config/axios";
+import { createSlice} from "@reduxjs/toolkit";
 
 const initialValue = {
 }
