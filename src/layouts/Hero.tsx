@@ -200,7 +200,7 @@ function Hero() {
         <div className="flex-1  p-10 flex flex-col justify-center items-center md:items-start md:w-1/2">
           <div className="mb-8 text-center md:text-left">
             <h1 className="text-4xl font-semibold font-serif mb-4">
-              PassCrafter-X: Crafting Super Strong Passwords Just For You
+              PassGen-X: Crafting Super Strong Passwords Just For You
             </h1>
             <p className="text-gray-600">
               Generate strong and secure passwords to protect your online

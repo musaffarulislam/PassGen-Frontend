@@ -19,7 +19,7 @@ export const Login = () => {
       try {
         const response = await loginApi(values);
         if (response && response.data) {
-          localStorage.setItem("UserToken", JSON.stringify(response.data));
+          localStorage.setItem("accessToken", JSON.stringify(response.data));
           message.success("Logged in successfully.");
           navigate("/");
         } else {

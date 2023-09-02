@@ -23,7 +23,7 @@ export const Signup = () => {
      if(responce){
       console.log(responce)
         if(responce.data){
-          localStorage.setItem('UserToken', JSON.stringify(responce.data));
+          localStorage.setItem('accessToken', JSON.stringify(responce.data));
           message.success('logged in successfully.');
           navigate('/');
         }else{
